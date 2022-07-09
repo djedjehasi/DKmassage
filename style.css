@@ -9,7 +9,8 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 30px;
+    padding: 0 50px;
+    margin: 0;
 }
 
 .nav-menu>li{
@@ -27,7 +28,6 @@ nav{
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 0 24px;
 }
 
 .nav-menu{
@@ -35,12 +35,16 @@ nav{
     justify-content: space-between;
     align-items: center;
     gap: 60px;
+    margin: 0;
 }
 
-.nav-logo{
-    font-size: 2rem;
-    text-decoration: none;
-    color: #262626;
+.logo{
+    height: 50px;
+    width: 80px;
+    background-image: url(./images/DKM-logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
 }
 
 .nav-link:hover{
@@ -92,6 +96,46 @@ nav{
     right: 0;
 }
 
+.hero{
+    display: flex;
+    flex-direction: column;
+    background: url(./images/massage_card.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 0 50px;
+    /*border: 1px solid;*/
+    height: 450px;
+}
+
+h1{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: auto;
+    color: white;
+    text-shadow: 0 0 10px black;
+}
+
+#hero-text{
+    font-size: 1.25rem;
+    margin-top: 40px;
+    color: white;
+    text-shadow: 0 0 4px black;
+}
+
+.hero .button{
+    margin: 0 auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 45px;
+    width: 145px;
+    background-color: transparent;
+    border: 2px solid red;
+    border-radius: 14px;
+    font-size: 1.25rem;
+    color: red;
+
+}
 
 @media(min-width: 768px){
     .hamburger{

@@ -4,12 +4,22 @@
     box-sizing: border-box;
 }
 
+.container{
+    padding: 0 35px;
+}
+
+.section{
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
 header{
     background-color: bisque;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 50px;
     margin: 0;
 }
 
@@ -103,7 +113,6 @@ nav{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    padding: 0 50px;
     /*border: 1px solid;*/
     height: 450px;
 }
@@ -134,8 +143,23 @@ h1{
     border-radius: 14px;
     font-size: 1.25rem;
     color: red;
-
 }
+#services{
+    background-color: bisque;
+    padding: 35px 0;
+}
+
+.card{
+    box-shadow: 0 0 20px black;
+    padding: 8px 20px;
+    background: white;
+}
+
+.second-title{
+    text-align: center;
+    font-size: 1.75rem;
+}
+
 
 @media(min-width: 768px){
     .hamburger{

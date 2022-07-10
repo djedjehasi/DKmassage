@@ -1,3 +1,9 @@
+:root{
+    --main-color: #DAC7AC;
+    --first-color: #FFF2E9;
+    --second-color: #EDDDCB;
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -12,11 +18,11 @@
     padding: 35px;
     display: flex;
     flex-direction: column;
-    gap: 35px;
+    gap: 50px;
 }
 
 header{
-    background-color: bisque;
+    background-color: var(--first-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -92,7 +98,7 @@ nav{
     top: 70px;
     gap: 0;
     flex-direction: column;
-    background-color: bisque;
+    background-color: var(--first-color);
     width: 100%;
     text-align: center;
     transition: 0.3s;
@@ -114,7 +120,7 @@ nav{
     background-size: cover;
     background-position: center center;
     /*border: 1px solid;*/
-    height: 450px;
+    height: 600px;
 }
 
 h1{
@@ -144,8 +150,14 @@ h1{
     font-size: 1.25rem;
     color: red;
 }
+
+i{
+    text-align: center;
+    font-size: 2.75rem;
+}
+
 #services{
-    background-color: bisque;
+    background-color: var(--first-color);
     padding: 35px 0;
 }
 
@@ -158,6 +170,10 @@ h1{
 .second-title{
     text-align: center;
     font-size: 1.75rem;
+}
+
+#where{
+    background-color: var(--second-color);
 }
 
 

@@ -161,10 +161,23 @@ i{
     padding: 35px 0;
 }
 
+.accordion{
+    display: flex;
+    flex-direction: column;
+}
+
 .card{
-    box-shadow: 0 0 20px black;
-    padding: 8px 20px;
-    background: white;
+    background-color: aqua;
+    margin: 0 35px;
+}
+.card h3{
+    background-color: lightcoral;
+    display: flex;
+}
+
+.card h3 i{
+    font-size: 18px;
+    margin-right: auto;
 }
 
 .second-title{
